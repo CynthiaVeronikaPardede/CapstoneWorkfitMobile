@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Summary,,,,2022-12-21 11:03:19,2022-12-21 11:05:29,2m - 9.781s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_01,,,,2022-12-21 11:03:19,2022-12-21 11:04:48,1m - 28.661s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 11:03:20,2022-12-21 11:04:05,45.119s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.view.View (2)""), 0)",,,,2022-12-21 11:04:05,2022-12-21 11:04:06,1.118s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - email address""), 0)",,,,2022-12-21 11:04:06,2022-12-21 11:04:07,1.278s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 11:04:07,2022-12-21 11:04:09,1.433s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - password""), 0)",,,,2022-12-21 11:04:09,2022-12-21 11:04:10,0.790s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 11:04:10,2022-12-21 11:04:11,0.967s,PASSED
+hideKeyboard(),,,,2022-12-21 11:04:11,2022-12-21 11:04:14,3.469s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.Button (1)""), 0)",,,,2022-12-21 11:04:14,2022-12-21 11:04:14,0.425s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.ImageView (2)""), 0)",,,,2022-12-21 11:04:14,2022-12-21 11:04:17,2.655s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.ImageView (3)""), 0)",,,,2022-12-21 11:04:17,2022-12-21 11:04:48,30.804s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_03,,,,2022-12-21 11:04:48,2022-12-21 11:05:04,16.293s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 11:04:48,2022-12-21 11:05:04,16.042s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_04,,,,2022-12-21 11:05:04,2022-12-21 11:05:17,12.861s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 11:05:04,2022-12-21 11:05:17,12.621s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_07,,,,2022-12-21 11:05:17,2022-12-21 11:05:29,11.593s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 11:05:17,2022-12-21 11:05:29,11.278s,FAILED

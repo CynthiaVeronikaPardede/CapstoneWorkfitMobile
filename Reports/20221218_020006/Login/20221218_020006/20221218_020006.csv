@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2022-12-18 02:00:13,2022-12-18 02:04:08,3m - 55.360s,PASSED
+,,,,,,,
+Test Cases/Login/TC_Login,,,,2022-12-18 02:00:13,2022-12-18 02:04:08,3m - 54.969s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:00:14,2022-12-18 02:00:39,25.464s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.view.View""), 0)",,,,2022-12-18 02:00:39,2022-12-18 02:00:40,1.197s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:00:40,2022-12-18 02:00:41,1.136s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText""), ""qe1@gmail.com
+"", 0)",,,,2022-12-18 02:00:41,2022-12-18 02:00:43,1.339s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.EditText - password""), 0)",,,,2022-12-18 02:00:43,2022-12-18 02:00:43,0.681s,PASSED
+"setText(findTestObject(""Object Repository/Login/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-18 02:00:43,2022-12-18 02:00:44,0.852s,PASSED
+hideKeyboard(),,,,2022-12-18 02:00:44,2022-12-18 02:00:47,3.116s,PASSED
+"tap(findTestObject(""Object Repository/Login/android.widget.Button""), 0)",,,,2022-12-18 02:00:47,2022-12-18 02:00:48,1.119s,PASSED
+"verifyElementText(findTestObject(""LoginFinal/android.view.View (1)""), """")",,,,2022-12-18 02:00:48,2022-12-18 02:00:49,1.046s,PASSED
+closeApplication(),,,,2022-12-18 02:00:49,2022-12-18 02:00:51,1.661s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:00:51,2022-12-18 02:01:13,22.306s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.view.View""), 0)",,,,2022-12-18 02:01:13,2022-12-18 02:01:15,2.019s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:01:15,2022-12-18 02:01:17,1.148s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText""), ""qe@gmail.com"", 0)",,,,2022-12-18 02:01:17,2022-12-18 02:01:18,1.346s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - password""), 0)",,,,2022-12-18 02:01:18,2022-12-18 02:01:19,0.681s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText (1)""), ""testing123"", 0)",,,,2022-12-18 02:01:19,2022-12-18 02:01:19,0.846s,PASSED
+hideKeyboard(),,,,2022-12-18 02:01:19,2022-12-18 02:01:22,2.933s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.Button""), 0)",,,,2022-12-18 02:01:22,2022-12-18 02:01:23,0.705s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid/android.view.View (1)""), """")",,,,2022-12-18 02:01:23,2022-12-18 02:01:24,1.134s,PASSED
+closeApplication(),,,,2022-12-18 02:01:24,2022-12-18 02:01:26,1.515s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:01:26,2022-12-18 02:01:46,20.401s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.view.View""), 0)",,,,2022-12-18 02:01:46,2022-12-18 02:01:48,2.032s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:01:48,2022-12-18 02:01:49,1.147s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-18 02:01:49,2022-12-18 02:01:51,1.350s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - password""), 0)",,,,2022-12-18 02:01:51,2022-12-18 02:01:51,0.681s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText (1)""), ""manusia"", 0)",,,,2022-12-18 02:01:51,2022-12-18 02:01:52,0.864s,PASSED
+hideKeyboard(),,,,2022-12-18 02:01:52,2022-12-18 02:01:55,2.998s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.Button""), 0)",,,,2022-12-18 02:01:55,2022-12-18 02:01:56,1.152s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid/android.view.View (1)""), """")",,,,2022-12-18 02:01:56,2022-12-18 02:01:57,0.592s,PASSED
+closeApplication(),,,,2022-12-18 02:01:57,2022-12-18 02:01:58,1.490s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:01:58,2022-12-18 02:02:19,20.482s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.view.View""), 0)",,,,2022-12-18 02:02:19,2022-12-18 02:02:21,2.076s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:02:21,2022-12-18 02:02:22,1.125s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText""), ""cynthia.pardede@gmail.com"", 0)",,,,2022-12-18 02:02:22,2022-12-18 02:02:23,1.327s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText - password""), 0)",,,,2022-12-18 02:02:23,2022-12-18 02:02:24,0.653s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid/android.widget.EditText (1)""), ""manusia"", 0)",,,,2022-12-18 02:02:24,2022-12-18 02:02:25,0.846s,PASSED
+hideKeyboard(),,,,2022-12-18 02:02:25,2022-12-18 02:02:28,2.921s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid/android.widget.Button""), 0)",,,,2022-12-18 02:02:28,2022-12-18 02:02:29,1.202s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid/android.view.View (1)""), """")",,,,2022-12-18 02:02:29,2022-12-18 02:02:30,0.712s,PASSED
+closeApplication(),,,,2022-12-18 02:02:30,2022-12-18 02:02:32,1.755s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:02:32,2022-12-18 02:02:53,21.028s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid2/android.view.View""), 0)",,,,2022-12-18 02:02:53,2022-12-18 02:02:55,2.010s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid2/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:02:55,2022-12-18 02:02:56,1.143s,PASSED
+hideKeyboard(),,,,2022-12-18 02:02:56,2022-12-18 02:02:59,2.954s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid2/android.widget.EditText - password""), 0)",,,,2022-12-18 02:02:59,2022-12-18 02:02:59,0.416s,PASSED
+hideKeyboard(),,,,2022-12-18 02:02:59,2022-12-18 02:03:02,2.975s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid2/android.widget.Button""), 0)",,,,2022-12-18 02:03:02,2022-12-18 02:03:03,0.648s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid2/android.view.View (1)""), """")",,,,2022-12-18 02:03:03,2022-12-18 02:03:03,0.606s,PASSED
+closeApplication(),,,,2022-12-18 02:03:03,2022-12-18 02:03:05,1.871s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:03:05,2022-12-18 02:03:27,21.379s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid4/android.view.View""), 0)",,,,2022-12-18 02:03:27,2022-12-18 02:03:28,1.357s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid4/android.widget.EditText - email address""), 0)",,,,2022-12-18 02:03:28,2022-12-18 02:03:29,1.153s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid4/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-18 02:03:29,2022-12-18 02:03:30,1.375s,PASSED
+hideKeyboard(),,,,2022-12-18 02:03:30,2022-12-18 02:03:33,2.988s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid4/android.widget.Button""), 0)",,,,2022-12-18 02:03:33,2022-12-18 02:03:34,0.882s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid4/android.view.View (1)""), """")",,,,2022-12-18 02:03:34,2022-12-18 02:03:35,0.167s,PASSED
+closeApplication(),,,,2022-12-18 02:03:35,2022-12-18 02:03:36,1.472s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-18 02:03:36,2022-12-18 02:03:57,21.275s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid3/android.view.View""), 0)",,,,2022-12-18 02:03:57,2022-12-18 02:03:59,1.747s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid3/android.widget.EditText - password""), 0)",,,,2022-12-18 02:03:59,2022-12-18 02:04:01,1.616s,PASSED
+"setText(findTestObject(""Object Repository/LoginInvalid3/android.widget.EditText""), ""testing123"", 0)",,,,2022-12-18 02:04:01,2022-12-18 02:04:02,1.347s,PASSED
+hideKeyboard(),,,,2022-12-18 02:04:02,2022-12-18 02:04:05,3.183s,PASSED
+"tap(findTestObject(""Object Repository/LoginInvalid3/android.widget.Button""), 0)",,,,2022-12-18 02:04:05,2022-12-18 02:04:06,1.226s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginInvalid3/android.view.View (1)""), """")",,,,2022-12-18 02:04:06,2022-12-18 02:04:07,0.236s,PASSED
+closeApplication(),,,,2022-12-18 02:04:07,2022-12-18 02:04:08,1.477s,PASSED

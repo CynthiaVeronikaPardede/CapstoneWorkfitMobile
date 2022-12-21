@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Forget" time="109.427" tests="3" failures="0" errors="0">
+   <testsuite name="Forget" tests="3" failures="0" errors="0" time="109.427" skipped="0" timestamp="2022-12-20 22:05:33" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Forget">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221220_220515\\Forget\\20221220_220515"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221220_220515\\Forget\\20221220_220515\\appium.log, E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221220_220515\\Forget\\20221220_220515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="9821f742"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/ForgetPassword/TC_Forget_01" time="35.558" classname="Test Cases/ForgetPassword/TC_Forget_01" status="PASSED">
+         <system-out><![CDATA[2022-12-20 22:05:33 - [TEST_CASE][PASSED] - Test Cases/ForgetPassword/TC_Forget_01: Test Cases/ForgetPassword/TC_Forget_01
+
+2022-12-20 22:05:33 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:05:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-20 22:05:35 - [MESSAGE][INFO] - Appium server started on port 49,945
+
+2022-12-20 22:05:57 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:05:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.view.View"), 0): Tapped on element 'Object Repository/Forget Password/android.view.View'
+
+2022-12-20 22:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:05:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.view.View'
+
+2022-12-20 22:05:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.view.View (1)"), 0): Tapped on element 'Object Repository/Forget Password/android.view.View (1)'
+
+2022-12-20 22:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:05:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.view.View (1)'
+
+2022-12-20 22:05:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Forget Password/android.widget.EditText - email address'
+
+2022-12-20 22:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.widget.EditText - email address'
+
+2022-12-20 22:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forget Password/android.widget.EditText"), "cynthia.pardede.17@gmail.com", 0): Text 'cynthia.pardede.17@gmail.com' has been set to element 'Object Repository/Forget Password/android.widget.EditText'
+
+2022-12-20 22:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:02 - [MESSAGE][PASSED] - Text 'cynthia.pardede.17@gmail.com' has been set to element 'Object Repository/Forget Password/android.widget.EditText'
+
+2022-12-20 22:06:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-20 22:06:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-20 22:06:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.widget.Button"), 0): Tapped on element 'Object Repository/Forget Password/android.widget.Button'
+
+2022-12-20 22:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.widget.Button'
+
+2022-12-20 22:06:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.view.View (2)"), 0): Tapped on element 'Object Repository/Forget Password/android.view.View (2)'
+
+2022-12-20 22:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.view.View (2)'
+
+2022-12-20 22:06:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-20 22:06:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ForgetPassword/TC_Forget_02" time="33.524" classname="Test Cases/ForgetPassword/TC_Forget_02" status="PASSED">
+         <system-out><![CDATA[2022-12-20 22:06:08 - [TEST_CASE][PASSED] - Test Cases/ForgetPassword/TC_Forget_02: Test Cases/ForgetPassword/TC_Forget_02
+
+2022-12-20 22:06:09 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:06:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-20 22:06:11 - [MESSAGE][INFO] - Appium server started on port 50,104
+
+2022-12-20 22:06:30 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:06:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Valid/android.view.View"), 0): Tapped on element 'Object Repository/Forget Password/Valid/android.view.View'
+
+2022-12-20 22:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Valid/android.view.View'
+
+2022-12-20 22:06:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Valid/android.view.View (1)"), 0): Tapped on element 'Object Repository/Forget Password/Valid/android.view.View (1)'
+
+2022-12-20 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Valid/android.view.View (1)'
+
+2022-12-20 22:06:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Valid/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Forget Password/Valid/android.widget.EditText - email address'
+
+2022-12-20 22:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Valid/android.widget.EditText - email address'
+
+2022-12-20 22:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forget Password/Valid/android.widget.EditText"), "cynthia.pardede.17@gmail.com", 0): Text 'cynthia.pardede.17@gmail.com' has been set to element 'Object Repository/Forget Password/Valid/android.widget.EditText'
+
+2022-12-20 22:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:36 - [MESSAGE][PASSED] - Text 'cynthia.pardede.17@gmail.com' has been set to element 'Object Repository/Forget Password/Valid/android.widget.EditText'
+
+2022-12-20 22:06:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-20 22:06:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-20 22:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/android.widget.Button"), 0): Tapped on element 'Object Repository/Forget Password/android.widget.Button'
+
+2022-12-20 22:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/android.widget.Button'
+
+2022-12-20 22:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Valid/android.view.View (2)"), 0): Tapped on element 'Object Repository/Forget Password/Valid/android.view.View (2)'
+
+2022-12-20 22:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:06:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Valid/android.view.View (2)'
+
+2022-12-20 22:06:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forget Password/Valid/android.view.View (3)"), ""): Actual text and expected text of test object 'Object Repository/Forget Password/Valid/android.view.View (3)' are matched.
+
+2022-12-20 22:06:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forget Password/Valid/android.view.View (3)' are matched.
+
+2022-12-20 22:06:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-20 22:06:42 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ForgetPassword/TC_Forget_03" time="40.042" classname="Test Cases/ForgetPassword/TC_Forget_03" status="PASSED">
+         <system-out><![CDATA[2022-12-20 22:06:42 - [TEST_CASE][PASSED] - Test Cases/ForgetPassword/TC_Forget_03: Test Cases/ForgetPassword/TC_Forget_03
+
+2022-12-20 22:06:42 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:06:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-20 22:06:44 - [MESSAGE][INFO] - Appium server started on port 50,256
+
+2022-12-20 22:07:03 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-20 22:07:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Invalid/android.view.View"), 0): Tapped on element 'Object Repository/Forget Password/Invalid/android.view.View'
+
+2022-12-20 22:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:07:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Invalid/android.view.View'
+
+2022-12-20 22:07:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Invalid/android.view.View (1)"), 0): Tapped on element 'Object Repository/Forget Password/Invalid/android.view.View (1)'
+
+2022-12-20 22:07:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:07:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Invalid/android.view.View (1)'
+
+2022-12-20 22:07:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Invalid/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Forget Password/Invalid/android.widget.EditText - email address'
+
+2022-12-20 22:07:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:07:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Invalid/android.widget.EditText - email address'
+
+2022-12-20 22:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forget Password/Invalid/android.widget.EditText"), "cynthia123", 0): Text 'cynthia123' has been set to element 'Object Repository/Forget Password/Invalid/android.widget.EditText'
+
+2022-12-20 22:07:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:07:16 - [MESSAGE][PASSED] - Text 'cynthia123' has been set to element 'Object Repository/Forget Password/Invalid/android.widget.EditText'
+
+2022-12-20 22:07:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-20 22:07:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-20 22:07:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Forget Password/Invalid/android.widget.Button"), 0): Tapped on element 'Object Repository/Forget Password/Invalid/android.widget.Button'
+
+2022-12-20 22:07:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-20 22:07:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Forget Password/Invalid/android.widget.Button'
+
+2022-12-20 22:07:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Forget Password/Invalid/android.view.View (3)"), ""): Actual text and expected text of test object 'Object Repository/Forget Password/Invalid/android.view.View (3)' are matched.
+
+2022-12-20 22:07:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forget Password/Invalid/android.view.View (3)' are matched.
+
+2022-12-20 22:07:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-20 22:07:22 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 22:05:33 - [TEST_SUITE][PASSED] - Forget: Test Cases/ForgetPassword/TC_Forget_03]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forget,,,,2022-12-20 22:05:33,2022-12-20 22:07:22,1m - 49.427s,PASSED
+,,,,,,,
+Test Cases/ForgetPassword/TC_Forget_01,,,,2022-12-20 22:05:33,2022-12-20 22:06:08,35.558s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-20 22:05:33,2022-12-20 22:05:57,23.970s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View""), 0)",,,,2022-12-20 22:05:57,2022-12-20 22:05:58,1.039s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View (1)""), 0)",,,,2022-12-20 22:05:58,2022-12-20 22:05:59,0.989s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.widget.EditText - email address""), 0)",,,,2022-12-20 22:05:59,2022-12-20 22:06:01,1.333s,PASSED
+"setText(findTestObject(""Object Repository/Forget Password/android.widget.EditText""), ""cynthia.pardede.17@gmail.com"", 0)",,,,2022-12-20 22:06:01,2022-12-20 22:06:02,1.438s,PASSED
+hideKeyboard(),,,,2022-12-20 22:06:02,2022-12-20 22:06:05,3.108s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.widget.Button""), 0)",,,,2022-12-20 22:06:05,2022-12-20 22:06:06,1.303s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View (2)""), 0)",,,,2022-12-20 22:06:06,2022-12-20 22:06:07,0.336s,PASSED
+closeApplication(),,,,2022-12-20 22:06:07,2022-12-20 22:06:08,1.710s,PASSED
+,,,,,,,
+Test Cases/ForgetPassword/TC_Forget_02,,,,2022-12-20 22:06:08,2022-12-20 22:06:42,33.524s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-20 22:06:09,2022-12-20 22:06:30,21.356s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Valid/android.view.View""), 0)",,,,2022-12-20 22:06:30,2022-12-20 22:06:32,2.097s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Valid/android.view.View (1)""), 0)",,,,2022-12-20 22:06:32,2022-12-20 22:06:33,0.951s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Valid/android.widget.EditText - email address""), 0)",,,,2022-12-20 22:06:33,2022-12-20 22:06:35,1.371s,PASSED
+"setText(findTestObject(""Object Repository/Forget Password/Valid/android.widget.EditText""), ""cynthia.pardede.17@gmail.com"", 0)",,,,2022-12-20 22:06:35,2022-12-20 22:06:36,1.342s,PASSED
+hideKeyboard(),,,,2022-12-20 22:06:36,2022-12-20 22:06:39,3.018s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.widget.Button""), 0)",,,,2022-12-20 22:06:39,2022-12-20 22:06:39,0.440s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Valid/android.view.View (2)""), 0)",,,,2022-12-20 22:06:39,2022-12-20 22:06:40,0.927s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forget Password/Valid/android.view.View (3)""), """")",,,,2022-12-20 22:06:40,2022-12-20 22:06:41,0.278s,PASSED
+closeApplication(),,,,2022-12-20 22:06:41,2022-12-20 22:06:42,1.454s,PASSED
+,,,,,,,
+Test Cases/ForgetPassword/TC_Forget_03,,,,2022-12-20 22:06:42,2022-12-20 22:07:22,40.042s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-20 22:06:42,2022-12-20 22:07:03,21.207s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Invalid/android.view.View""), 0)",,,,2022-12-20 22:07:03,2022-12-20 22:07:06,2.148s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Invalid/android.view.View (1)""), 0)",,,,2022-12-20 22:07:06,2022-12-20 22:07:06,0.913s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Invalid/android.widget.EditText - email address""), 0)",,,,2022-12-20 22:07:06,2022-12-20 22:07:14,7.632s,PASSED
+"setText(findTestObject(""Object Repository/Forget Password/Invalid/android.widget.EditText""), ""cynthia123"", 0)",,,,2022-12-20 22:07:14,2022-12-20 22:07:16,1.440s,PASSED
+hideKeyboard(),,,,2022-12-20 22:07:16,2022-12-20 22:07:19,3.095s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/Invalid/android.widget.Button""), 0)",,,,2022-12-20 22:07:19,2022-12-20 22:07:20,0.895s,PASSED
+"verifyElementText(findTestObject(""Forget Password/Invalid/android.view.View (3)""), """")",,,,2022-12-20 22:07:20,2022-12-20 22:07:20,0.284s,PASSED
+closeApplication(),,,,2022-12-20 22:07:20,2022-12-20 22:07:22,2.193s,PASSED

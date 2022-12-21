@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Summary,,,,2022-12-21 12:11:08,2022-12-21 12:12:50,1m - 42.622s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_01,,,,2022-12-21 12:11:08,2022-12-21 12:11:38,29.661s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:11:09,2022-12-21 12:11:38,28.951s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_03,,,,2022-12-21 12:11:38,2022-12-21 12:12:09,31.188s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:11:38,2022-12-21 12:12:09,30.748s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_04,,,,2022-12-21 12:12:09,2022-12-21 12:12:30,20.759s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:12:09,2022-12-21 12:12:30,20.422s,FAILED
+,,,,,,,
+Test Cases/Summary/TC_Summary_07,,,,2022-12-21 12:12:30,2022-12-21 12:12:50,20.552s,FAILED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:12:30,2022-12-21 12:12:50,20.143s,FAILED

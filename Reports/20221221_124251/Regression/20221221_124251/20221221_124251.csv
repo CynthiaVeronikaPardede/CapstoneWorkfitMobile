@@ -1,0 +1,177 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,,,,2022-12-21 12:43:09,2022-12-21 12:50:18,7m - 9.495s,PASSED
+,,,,,,,
+Test Cases/Summary/TC_Summary_01,,,,2022-12-21 12:43:09,2022-12-21 12:43:52,43.132s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:43:10,2022-12-21 12:43:34,24.191s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.view.View (2)""), 0)",,,,2022-12-21 12:43:34,2022-12-21 12:43:35,1.108s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:43:35,2022-12-21 12:43:37,1.685s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:43:37,2022-12-21 12:43:38,1.400s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - password""), 0)",,,,2022-12-21 12:43:38,2022-12-21 12:43:39,0.742s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:43:39,2022-12-21 12:43:40,1.039s,PASSED
+hideKeyboard(),,,,2022-12-21 12:43:40,2022-12-21 12:43:43,2.997s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.Button (1)""), 0)",,,,2022-12-21 12:43:43,2022-12-21 12:43:44,1.791s,PASSED
+"tap(findTestObject(""Object Repository/Summary/1/android.widget.ImageView""), 0)",,,,2022-12-21 12:43:44,2022-12-21 12:43:47,2.100s,PASSED
+"tap(findTestObject(""Object Repository/Summary/1/android.widget.EditText - Search""), 0)",,,,2022-12-21 12:43:47,2022-12-21 12:43:47,0.359s,PASSED
+"setText(findTestObject(""Object Repository/Summary/1/android.widget.EditText""), ""Zumba"", 0)",,,,2022-12-21 12:43:47,2022-12-21 12:43:49,1.780s,PASSED
+"tap(findTestObject(""Object Repository/Summary/1/android.view.View""), 0)",,,,2022-12-21 12:43:49,2022-12-21 12:43:50,1.080s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Summary/1/android.view.View (1)""), """")",,,,2022-12-21 12:43:50,2022-12-21 12:43:51,0.936s,PASSED
+closeApplication(),,,,2022-12-21 12:43:51,2022-12-21 12:43:52,1.592s,PASSED
+,,,,,,,
+Test Cases/Summary/TC_Summary_04,,,,2022-12-21 12:43:52,2022-12-21 12:44:33,40.256s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:43:53,2022-12-21 12:44:13,20.454s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.view.View (2)""), 0)",,,,2022-12-21 12:44:13,2022-12-21 12:44:16,2.910s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:44:16,2022-12-21 12:44:18,1.936s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:44:18,2022-12-21 12:44:19,0.748s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.EditText - password""), 0)",,,,2022-12-21 12:44:19,2022-12-21 12:44:20,1.169s,PASSED
+"setText(findTestObject(""Object Repository/Summary/Online/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:44:20,2022-12-21 12:44:21,1.023s,PASSED
+hideKeyboard(),,,,2022-12-21 12:44:21,2022-12-21 12:44:24,3.068s,PASSED
+"tap(findTestObject(""Object Repository/Summary/Online/android.widget.Button (1)""), 0)",,,,2022-12-21 12:44:24,2022-12-21 12:44:25,0.901s,PASSED
+"tap(findTestObject(""Object Repository/Summary/2/android.widget.ImageView""), 0)",,,,2022-12-21 12:44:25,2022-12-21 12:44:28,2.886s,PASSED
+"tap(findTestObject(""Object Repository/Summary/2/android.view.View""), 0)",,,,2022-12-21 12:44:28,2022-12-21 12:44:28,0.233s,PASSED
+"tap(findTestObject(""Object Repository/Summary/2/android.widget.EditText - Search""), 0)",,,,2022-12-21 12:44:28,2022-12-21 12:44:30,1.806s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Summary/2/android.view.View (1)""), """")",,,,2022-12-21 12:44:30,2022-12-21 12:44:31,1.333s,PASSED
+closeApplication(),,,,2022-12-21 12:44:31,2022-12-21 12:44:33,1.576s,PASSED
+,,,,,,,
+Test Cases/Register/TC_Register_01,,,,2022-12-21 12:44:33,2022-12-21 12:45:18,45.743s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:44:33,2022-12-21 12:44:54,21.298s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button""), 0)",,,,2022-12-21 12:44:54,2022-12-21 12:44:57,2.850s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - first name""), 0)",,,,2022-12-21 12:44:57,2022-12-21 12:44:58,0.791s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText""), ""Manises"", 0)",,,,2022-12-21 12:44:58,2022-12-21 12:44:59,1.362s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - last name""), 0)",,,,2022-12-21 12:44:59,2022-12-21 12:45:01,1.837s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (1)""), ""Donari"", 0)",,,,2022-12-21 12:45:01,2022-12-21 12:45:02,0.817s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - phone number""), 0)",,,,2022-12-21 12:45:02,2022-12-21 12:45:03,1.077s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (2)""), ""081230639876"", 0)",,,,2022-12-21 12:45:03,2022-12-21 12:45:04,0.996s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new email address""), 0)",,,,2022-12-21 12:45:04,2022-12-21 12:45:05,0.949s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (3)""), ""domari123@gmail.com"", 0)",,,,2022-12-21 12:45:05,2022-12-21 12:45:06,1.067s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new password""), 0)",,,,2022-12-21 12:45:06,2022-12-21 12:45:08,1.781s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (4)""), ""testing123"", 0)",,,,2022-12-21 12:45:08,2022-12-21 12:45:08,0.324s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - confirmation password""), 0)",,,,2022-12-21 12:45:08,2022-12-21 12:45:09,0.891s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (5)""), ""testing123"", 0)",,,,2022-12-21 12:45:09,2022-12-21 12:45:10,1.019s,PASSED
+hideKeyboard(),,,,2022-12-21 12:45:10,2022-12-21 12:45:13,3.050s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.CheckBox""), 0)",,,,2022-12-21 12:45:13,2022-12-21 12:45:15,1.741s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button (1)""), 0)",,,,2022-12-21 12:45:15,2022-12-21 12:45:17,1.999s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Register/RegisterValid/android.view.View (1)""), """")",,,,2022-12-21 12:45:17,2022-12-21 12:45:17,0.181s,PASSED
+closeApplication(),,,,2022-12-21 12:45:17,2022-12-21 12:45:18,1.474s,PASSED
+,,,,,,,
+Test Cases/Register/TC_Register_09,,,,2022-12-21 12:45:18,2022-12-21 12:46:04,45.272s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:45:19,2022-12-21 12:45:41,22.529s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button""), 0)",,,,2022-12-21 12:45:41,2022-12-21 12:45:43,2.001s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - first name""), 0)",,,,2022-12-21 12:45:43,2022-12-21 12:45:44,1.024s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText""), ""Romas"", 0)",,,,2022-12-21 12:45:44,2022-12-21 12:45:46,1.841s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - last name""), 0)",,,,2022-12-21 12:45:46,2022-12-21 12:45:47,1.036s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (1)""), ""Donas"", 0)",,,,2022-12-21 12:45:47,2022-12-21 12:45:48,1.014s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - phone number""), 0)",,,,2022-12-21 12:45:48,2022-12-21 12:45:50,1.793s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (2)""), ""081234567678"", 0)",,,,2022-12-21 12:45:50,2022-12-21 12:45:50,0.264s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new email address""), 0)",,,,2022-12-21 12:45:50,2022-12-21 12:45:51,0.923s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (3)""), ""roma123"", 0)",,,,2022-12-21 12:45:51,2022-12-21 12:45:52,0.983s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new password""), 0)",,,,2022-12-21 12:45:52,2022-12-21 12:45:53,1.022s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (4)""), ""testing123"", 0)",,,,2022-12-21 12:45:53,2022-12-21 12:45:54,1.006s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - confirmation password""), 0)",,,,2022-12-21 12:45:54,2022-12-21 12:45:56,1.814s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (5)""), ""testing123"", 0)",,,,2022-12-21 12:45:56,2022-12-21 12:45:56,0.296s,PASSED
+hideKeyboard(),,,,2022-12-21 12:45:56,2022-12-21 12:45:59,3.102s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.CheckBox""), 0)",,,,2022-12-21 12:45:59,2022-12-21 12:46:00,0.748s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button (1)""), 0)",,,,2022-12-21 12:46:00,2022-12-21 12:46:02,1.874s,PASSED
+"verifyElementText(findTestObject(""Register/RegisterInvalid/android.view.View (5)""), """")",,,,2022-12-21 12:46:02,2022-12-21 12:46:02,0.222s,PASSED
+closeApplication(),,,,2022-12-21 12:46:02,2022-12-21 12:46:04,1.565s,PASSED
+,,,,,,,
+Test Cases/Register/TC_Register_10,,,,2022-12-21 12:46:04,2022-12-21 12:46:48,43.972s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:46:04,2022-12-21 12:46:25,20.740s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button""), 0)",,,,2022-12-21 12:46:25,2022-12-21 12:46:28,3.299s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - first name""), 0)",,,,2022-12-21 12:46:28,2022-12-21 12:46:28,0.328s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText""), ""Romas"", 0)",,,,2022-12-21 12:46:28,2022-12-21 12:46:30,1.818s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - last name""), 0)",,,,2022-12-21 12:46:30,2022-12-21 12:46:31,1.030s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (1)""), ""Donas"", 0)",,,,2022-12-21 12:46:31,2022-12-21 12:46:32,0.983s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - phone number""), 0)",,,,2022-12-21 12:46:32,2022-12-21 12:46:33,1.040s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (2)""), ""081234567678"", 0)",,,,2022-12-21 12:46:33,2022-12-21 12:46:34,0.968s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new email address""), 0)",,,,2022-12-21 12:46:34,2022-12-21 12:46:35,0.990s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (3)""), ""roma1234@gmail.com"", 0)",,,,2022-12-21 12:46:35,2022-12-21 12:46:36,1.023s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - new password""), 0)",,,,2022-12-21 12:46:36,2022-12-21 12:46:37,1.173s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (4)""), ""testing"", 0)",,,,2022-12-21 12:46:37,2022-12-21 12:46:38,0.913s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText - confirmation password""), 0)",,,,2022-12-21 12:46:38,2022-12-21 12:46:40,1.744s,PASSED
+"setText(findTestObject(""Object Repository/Register/RegisterValid/android.widget.EditText (5)""), ""testing123"", 0)",,,,2022-12-21 12:46:40,2022-12-21 12:46:40,0.297s,PASSED
+hideKeyboard(),,,,2022-12-21 12:46:40,2022-12-21 12:46:43,3.024s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.CheckBox""), 0)",,,,2022-12-21 12:46:43,2022-12-21 12:46:45,1.691s,PASSED
+"tap(findTestObject(""Object Repository/Register/RegisterValid/android.widget.Button (1)""), 0)",,,,2022-12-21 12:46:45,2022-12-21 12:46:46,1.006s,PASSED
+"verifyElementText(findTestObject(""Register/RegisterInvalid/android.view.View (4)""), """")",,,,2022-12-21 12:46:46,2022-12-21 12:46:46,0.229s,PASSED
+closeApplication(),,,,2022-12-21 12:46:46,2022-12-21 12:46:48,1.427s,PASSED
+,,,,,,,
+Test Cases/Login/TC_Login_01,,,,2022-12-21 12:46:48,2022-12-21 12:47:24,36.199s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:46:48,2022-12-21 12:47:08,20.599s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/1/android.view.View""), 0)",,,,2022-12-21 12:47:08,2022-12-21 12:47:11,2.035s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/1/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:47:11,2022-12-21 12:47:13,2.799s,PASSED
+"setText(findTestObject(""Object Repository/LogoutValid/1/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:47:13,2022-12-21 12:47:14,0.830s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/1/android.widget.EditText - password""), 0)",,,,2022-12-21 12:47:14,2022-12-21 12:47:16,1.887s,PASSED
+"setText(findTestObject(""Object Repository/LogoutValid/1/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:47:16,2022-12-21 12:47:16,0.419s,PASSED
+hideKeyboard(),,,,2022-12-21 12:47:16,2022-12-21 12:47:19,2.842s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/1/android.widget.Button""), 0)",,,,2022-12-21 12:47:19,2022-12-21 12:47:21,1.749s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LogoutValid/1/android.view.View (1)""), """")",,,,2022-12-21 12:47:21,2022-12-21 12:47:22,1.084s,PASSED
+closeApplication(),,,,2022-12-21 12:47:22,2022-12-21 12:47:24,1.704s,PASSED
+,,,,,,,
+Test Cases/Logout/TC_Logout,,,,2022-12-21 12:47:24,2022-12-21 12:48:06,42.409s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:47:24,2022-12-21 12:47:49,24.977s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.view.View""), 0)",,,,2022-12-21 12:47:49,2022-12-21 12:47:51,2.141s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:47:51,2022-12-21 12:47:52,1.185s,PASSED
+"setText(findTestObject(""Object Repository/LogoutValid/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:47:52,2022-12-21 12:47:54,1.857s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.widget.EditText - password""), 0)",,,,2022-12-21 12:47:54,2022-12-21 12:47:56,1.791s,PASSED
+"setText(findTestObject(""Object Repository/LogoutValid/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:47:56,2022-12-21 12:47:56,0.343s,PASSED
+hideKeyboard(),,,,2022-12-21 12:47:56,2022-12-21 12:47:59,3.001s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.widget.Button""), 0)",,,,2022-12-21 12:47:59,2022-12-21 12:48:00,0.830s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.widget.ImageView""), 0)",,,,2022-12-21 12:48:00,2022-12-21 12:48:03,2.855s,PASSED
+"tap(findTestObject(""Object Repository/LogoutValid/android.widget.ImageView (1)""), 0)",,,,2022-12-21 12:48:03,2022-12-21 12:48:04,1.187s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LogoutValid/android.view.View (1)""), """")",,,,2022-12-21 12:48:04,2022-12-21 12:48:05,0.190s,PASSED
+closeApplication(),,,,2022-12-21 12:48:05,2022-12-21 12:48:06,1.719s,PASSED
+,,,,,,,
+Test Cases/ForgetPassword/TC_Forget_01,,,,2022-12-21 12:48:06,2022-12-21 12:48:43,36.552s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:48:06,2022-12-21 12:48:30,23.991s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View""), 0)",,,,2022-12-21 12:48:30,2022-12-21 12:48:32,2.023s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View (1)""), 0)",,,,2022-12-21 12:48:32,2022-12-21 12:48:33,0.924s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:48:33,2022-12-21 12:48:35,1.273s,PASSED
+"setText(findTestObject(""Object Repository/Forget Password/android.widget.EditText""), ""cynthia.pardede.17@gmail.com"", 0)",,,,2022-12-21 12:48:35,2022-12-21 12:48:36,1.679s,PASSED
+hideKeyboard(),,,,2022-12-21 12:48:36,2022-12-21 12:48:39,2.975s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.widget.Button""), 0)",,,,2022-12-21 12:48:39,2022-12-21 12:48:41,1.204s,PASSED
+"tap(findTestObject(""Object Repository/Forget Password/android.view.View (2)""), 0)",,,,2022-12-21 12:48:41,2022-12-21 12:48:41,0.710s,PASSED
+closeApplication(),,,,2022-12-21 12:48:41,2022-12-21 12:48:43,1.535s,PASSED
+,,,,,,,
+Test Cases/Explore/TC_Explore_01,,,,2022-12-21 12:48:43,2022-12-21 12:48:43,0.204s,PASSED
+return null,,,,2022-12-21 12:48:43,2022-12-21 12:48:43,0.000s,PASSED
+,,,,,,,
+Test Cases/Booking/Booking,,,,2022-12-21 12:48:43,2022-12-21 12:50:18,1m - 35.449s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:48:43,2022-12-21 12:49:04,20.661s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.view.View""), 0)",,,,2022-12-21 12:49:04,2022-12-21 12:49:06,2.566s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:49:06,2022-12-21 12:49:09,2.806s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:49:09,2022-12-21 12:49:10,0.320s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText - password""), 0)",,,,2022-12-21 12:49:10,2022-12-21 12:49:10,0.875s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:49:10,2022-12-21 12:49:12,1.032s,PASSED
+hideKeyboard(),,,,2022-12-21 12:49:12,2022-12-21 12:49:15,3.042s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button""), 0)",,,,2022-12-21 12:49:15,2022-12-21 12:49:16,1.750s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.ImageView""), 0)",,,,2022-12-21 12:49:16,2022-12-21 12:49:18,2.005s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (1)""), 0)",,,,2022-12-21 12:49:18,2022-12-21 12:49:20,1.243s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.view.View""), 0)",,,,2022-12-21 12:49:20,2022-12-21 12:49:20,0.290s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button""), 0)",,,,2022-12-21 12:49:20,2022-12-21 12:49:22,2.482s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button (1)""), 0)",,,,2022-12-21 12:49:22,2022-12-21 12:49:24,2.007s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button (2)""), 0)",,,,2022-12-21 12:49:24,2022-12-21 12:49:25,1.124s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button (3)""), 0)",,,,2022-12-21 12:49:25,2022-12-21 12:49:26,0.881s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button (4)""), 0)",,,,2022-12-21 12:49:26,2022-12-21 12:49:27,1.059s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/BookFinal/android.widget.Button (5)""), 0)",,,,2022-12-21 12:49:27,2022-12-21 12:49:28,1.061s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BookingOffline/BookFinal/android.view.View (1)""), """")",,,,2022-12-21 12:49:28,2022-12-21 12:49:29,0.201s,PASSED
+closeApplication(),,,,2022-12-21 12:49:29,2022-12-21 12:49:30,1.462s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 12:49:30,2022-12-21 12:49:51,21.140s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.view.View""), 0)",,,,2022-12-21 12:49:51,2022-12-21 12:49:54,2.274s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.EditText - email address""), 0)",,,,2022-12-21 12:49:54,2022-12-21 12:49:56,2.865s,PASSED
+"setText(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 12:49:56,2022-12-21 12:49:57,0.299s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.EditText - password""), 0)",,,,2022-12-21 12:49:57,2022-12-21 12:49:58,1.709s,PASSED
+"setText(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 12:49:58,2022-12-21 12:49:59,0.380s,PASSED
+hideKeyboard(),,,,2022-12-21 12:49:59,2022-12-21 12:50:02,2.942s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button""), 0)",,,,2022-12-21 12:50:02,2022-12-21 12:50:04,2.688s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.ImageView""), 0)",,,,2022-12-21 12:50:04,2022-12-21 12:50:06,1.155s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (1)""), 0)",,,,2022-12-21 12:50:06,2022-12-21 12:50:07,1.209s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.view.View (1)""), 0)",,,,2022-12-21 12:50:07,2022-12-21 12:50:08,0.725s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.view.View (2)""), 0)",,,,2022-12-21 12:50:08,2022-12-21 12:50:09,1.117s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (2)""), 0)",,,,2022-12-21 12:50:09,2022-12-21 12:50:10,1.817s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (3)""), 0)",,,,2022-12-21 12:50:10,2022-12-21 12:50:12,1.434s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (4)""), 0)",,,,2022-12-21 12:50:12,2022-12-21 12:50:13,1.615s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (5)""), 0)",,,,2022-12-21 12:50:13,2022-12-21 12:50:14,0.959s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (6)""), 0)",,,,2022-12-21 12:50:14,2022-12-21 12:50:15,0.236s,PASSED
+"tap(findTestObject(""Object Repository/BookingOnline/BookFinal/android.widget.Button (7)""), 0)",,,,2022-12-21 12:50:15,2022-12-21 12:50:16,0.957s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BookingOnline/BookFinal/android.view.View (3)""), """")",,,,2022-12-21 12:50:16,2022-12-21 12:50:17,1.240s,PASSED
+closeApplication(),,,,2022-12-21 12:50:17,2022-12-21 12:50:18,1.582s,PASSED

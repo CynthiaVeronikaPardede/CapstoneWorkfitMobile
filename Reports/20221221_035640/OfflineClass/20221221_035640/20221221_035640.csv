@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OfflineClass,,,,2022-12-21 03:56:58,2022-12-21 03:59:51,2m - 53.464s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline/TC_BookingClassOffline,,,,2022-12-21 03:56:58,2022-12-21 03:57:42,43.829s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 03:56:59,2022-12-21 03:57:22,23.586s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.view.View""), 0)",,,,2022-12-21 03:57:22,2022-12-21 03:57:23,1.318s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText - email address""), 0)",,,,2022-12-21 03:57:23,2022-12-21 03:57:25,1.205s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 03:57:25,2022-12-21 03:57:26,1.395s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText - password""), 0)",,,,2022-12-21 03:57:26,2022-12-21 03:57:27,0.737s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 03:57:27,2022-12-21 03:57:28,0.942s,PASSED
+hideKeyboard(),,,,2022-12-21 03:57:28,2022-12-21 03:57:31,3.255s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.Button""), 0)",,,,2022-12-21 03:57:31,2022-12-21 03:57:33,1.883s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.ImageView""), 0)",,,,2022-12-21 03:57:33,2022-12-21 03:57:35,2.130s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.Button (1)""), 0)",,,,2022-12-21 03:57:35,2022-12-21 03:57:37,1.934s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText - Search""), 0)",,,,2022-12-21 03:57:37,2022-12-21 03:57:37,0.337s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book/android.widget.EditText (2)""), ""Zumba"", 0)",,,,2022-12-21 03:57:37,2022-12-21 03:57:39,1.459s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book/android.widget.ImageView (1)""), 0)",,,,2022-12-21 03:57:39,2022-12-21 03:57:39,0.713s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BookingOffline/Book/android.view.View (1)""), """")",,,,2022-12-21 03:57:39,2022-12-21 03:57:40,0.898s,PASSED
+closeApplication(),,,,2022-12-21 03:57:40,2022-12-21 03:57:42,1.667s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline/TC_BookingClassOffline_02,,,,2022-12-21 03:57:42,2022-12-21 03:57:42,0.217s,PASSED
+return null,,,,2022-12-21 03:57:42,2022-12-21 03:57:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline/TC_BookingClassOffline_03,,,,2022-12-21 03:57:42,2022-12-21 03:58:25,42.833s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 03:57:42,2022-12-21 03:58:02,20.027s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.view.View""), 0)",,,,2022-12-21 03:58:02,2022-12-21 03:58:05,2.050s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.EditText - email address""), 0)",,,,2022-12-21 03:58:05,2022-12-21 03:58:06,1.203s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 03:58:06,2022-12-21 03:58:07,1.391s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.EditText - password""), 0)",,,,2022-12-21 03:58:07,2022-12-21 03:58:08,0.754s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 03:58:08,2022-12-21 03:58:09,0.934s,PASSED
+hideKeyboard(),,,,2022-12-21 03:58:09,2022-12-21 03:58:12,3.129s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button""), 0)",,,,2022-12-21 03:58:12,2022-12-21 03:58:13,1.177s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.ImageView""), 0)",,,,2022-12-21 03:58:13,2022-12-21 03:58:15,2.061s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (1)""), 0)",,,,2022-12-21 03:58:15,2022-12-21 03:58:16,1.045s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.ImageView (1)""), 0)",,,,2022-12-21 03:58:16,2022-12-21 03:58:16,0.216s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (2)""), 0)",,,,2022-12-21 03:58:16,2022-12-21 03:58:18,1.567s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (3)""), 0)",,,,2022-12-21 03:58:18,2022-12-21 03:58:18,0.245s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (4)""), 0)",,,,2022-12-21 03:58:18,2022-12-21 03:58:20,2.122s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (5)""), 0)",,,,2022-12-21 03:58:20,2022-12-21 03:58:21,0.849s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (6)""), 0)",,,,2022-12-21 03:58:21,2022-12-21 03:58:22,1.057s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book6/android.widget.Button (7)""), 0)",,,,2022-12-21 03:58:22,2022-12-21 03:58:23,0.262s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BookingOffline/Book6/android.view.View (1)""), """")",,,,2022-12-21 03:58:23,2022-12-21 03:58:23,0.919s,PASSED
+closeApplication(),,,,2022-12-21 03:58:23,2022-12-21 03:58:25,1.621s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline/TC_BookingClassOffline_04,,,,2022-12-21 03:58:25,2022-12-21 03:59:07,42.293s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 03:58:25,2022-12-21 03:58:47,21.355s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.view.View""), 0)",,,,2022-12-21 03:58:47,2022-12-21 03:58:49,2.104s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText - email address""), 0)",,,,2022-12-21 03:58:49,2022-12-21 03:58:50,1.258s,PASSED
+"setText(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 03:58:50,2022-12-21 03:58:51,1.402s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText - password""), 0)",,,,2022-12-21 03:58:51,2022-12-21 03:58:52,0.765s,PASSED
+"setText(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 03:58:52,2022-12-21 03:58:53,0.915s,PASSED
+hideKeyboard(),,,,2022-12-21 03:58:53,2022-12-21 03:58:56,3.149s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.Button""), 0)",,,,2022-12-21 03:58:56,2022-12-21 03:58:57,1.143s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.ImageView""), 0)",,,,2022-12-21 03:58:57,2022-12-21 03:58:59,1.166s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.Button (1)""), 0)",,,,2022-12-21 03:58:59,2022-12-21 03:59:01,1.955s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText - Search""), 0)",,,,2022-12-21 03:59:01,2022-12-21 03:59:01,0.277s,PASSED
+"setText(findTestObject(""Object Repository/Booking1/Book4/android.widget.EditText (2)""), ""Zumba"", 0)",,,,2022-12-21 03:59:01,2022-12-21 03:59:02,1.442s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.ImageView (1)""), 0)",,,,2022-12-21 03:59:02,2022-12-21 03:59:03,0.681s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.Button (2)""), 0)",,,,2022-12-21 03:59:03,2022-12-21 03:59:04,1.542s,PASSED
+"tap(findTestObject(""Object Repository/Booking1/Book4/android.widget.Button (3)""), 0)",,,,2022-12-21 03:59:04,2022-12-21 03:59:05,0.904s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Booking1/Book4/android.view.View (1)""), """")",,,,2022-12-21 03:59:05,2022-12-21 03:59:06,0.211s,PASSED
+closeApplication(),,,,2022-12-21 03:59:06,2022-12-21 03:59:07,1.797s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline/TC_BookingClassOffline_11,,,,2022-12-21 03:59:07,2022-12-21 03:59:51,44.032s,PASSED
+"startApplication(""E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk"", true)",,,,2022-12-21 03:59:08,2022-12-21 03:59:28,20.267s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.view.View""), 0)",,,,2022-12-21 03:59:28,2022-12-21 03:59:30,2.169s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText - email address""), 0)",,,,2022-12-21 03:59:30,2022-12-21 03:59:31,1.198s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText""), ""qe1@gmail.com"", 0)",,,,2022-12-21 03:59:31,2022-12-21 03:59:33,1.408s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText - password""), 0)",,,,2022-12-21 03:59:33,2022-12-21 03:59:33,0.741s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText (1)""), ""12344321"", 0)",,,,2022-12-21 03:59:33,2022-12-21 03:59:34,0.924s,PASSED
+hideKeyboard(),,,,2022-12-21 03:59:34,2022-12-21 03:59:37,3.149s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button""), 0)",,,,2022-12-21 03:59:37,2022-12-21 03:59:38,0.654s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.ImageView""), 0)",,,,2022-12-21 03:59:38,2022-12-21 03:59:40,2.372s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (1)""), 0)",,,,2022-12-21 03:59:40,2022-12-21 03:59:42,1.339s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText - Search""), 0)",,,,2022-12-21 03:59:42,2022-12-21 03:59:42,0.279s,PASSED
+"setText(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.EditText (2)""), ""Zumba"", 0)",,,,2022-12-21 03:59:42,2022-12-21 03:59:43,1.394s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.ImageView (1)""), 0)",,,,2022-12-21 03:59:43,2022-12-21 03:59:44,0.712s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (2)""), 0)",,,,2022-12-21 03:59:44,2022-12-21 03:59:46,1.571s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (3)""), 0)",,,,2022-12-21 03:59:46,2022-12-21 03:59:46,0.263s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (4)""), 0)",,,,2022-12-21 03:59:46,2022-12-21 03:59:48,2.147s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (5)""), 0)",,,,2022-12-21 03:59:48,2022-12-21 03:59:49,0.835s,PASSED
+"tap(findTestObject(""Object Repository/BookingOffline/Book5/android.widget.Button (6)""), 0)",,,,2022-12-21 03:59:49,2022-12-21 03:59:50,0.919s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BookingOffline/Book5/android.view.View (1)""), """")",,,,2022-12-21 03:59:50,2022-12-21 03:59:50,0.201s,PASSED
+closeApplication(),,,,2022-12-21 03:59:50,2022-12-21 03:59:51,1.282s,PASSED

@@ -17,21 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Aplikasi\\app-release.apk', true)
+Mobile.startApplication('E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Aplikasi\\Terbaru\\app-release.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Login/android.view.View'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - email address'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText'), 'cynthia.pardede.17@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText'), 'qe1@gmail.com', 0)
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), 'testing123', 0)
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText (1)'), '12344321', 0)
+
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button'), 0)
 
-Mobile.verifyElementText(findTestObject(''), '')
+Mobile.verifyElementText(findTestObject('LoginFinal/android.view.View (1)'), '')
 
 Mobile.closeApplication()
 

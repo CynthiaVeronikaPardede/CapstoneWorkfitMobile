@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Summary" time="187.686" tests="4" failures="0" errors="0">
+   <testsuite name="Summary" tests="4" failures="0" errors="0" time="187.686" skipped="0" timestamp="2022-12-21 12:14:49" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Summary">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221221_121430\\Summary\\20221221_121430"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221221_121430\\Summary\\20221221_121430\\appium.log, E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\Mobile\\CapstoneWorkfitMobile\\Reports\\20221221_121430\\Summary\\20221221_121430\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="9821f742"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Summary/TC_Summary_01" time="54.248" classname="Test Cases/Summary/TC_Summary_01" status="PASSED">
+         <system-out><![CDATA[2022-12-21 12:14:49 - [TEST_CASE][PASSED] - Test Cases/Summary/TC_Summary_01: Test Cases/Summary/TC_Summary_01
+
+2022-12-21 12:14:50 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:14:51 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-21 12:14:53 - [MESSAGE][INFO] - Appium server started on port 55,383
+
+2022-12-21 12:15:22 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:15:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.view.View (2)"), 0): Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:15:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText"), "qe1@gmail.com", 0): Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:15:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:26 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:15:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - password"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:15:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:15:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText (1)"), "12344321", 0): Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:28 - [MESSAGE][PASSED] - Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:15:28 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-21 12:15:32 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-21 12:15:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:15:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:15:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Summary/1/android.widget.ImageView'
+
+2022-12-21 12:15:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.widget.ImageView'
+
+2022-12-21 12:15:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.widget.EditText - Search"), 0): Tapped on element 'Object Repository/Summary/1/android.widget.EditText - Search'
+
+2022-12-21 12:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.widget.EditText - Search'
+
+2022-12-21 12:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/1/android.widget.EditText"), "Zumba", 0): Text 'Zumba' has been set to element 'Object Repository/Summary/1/android.widget.EditText'
+
+2022-12-21 12:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:39 - [MESSAGE][PASSED] - Text 'Zumba' has been set to element 'Object Repository/Summary/1/android.widget.EditText'
+
+2022-12-21 12:15:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.view.View"), 0): Tapped on element 'Object Repository/Summary/1/android.view.View'
+
+2022-12-21 12:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:15:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.view.View'
+
+2022-12-21 12:15:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Summary/1/android.view.View (1)"), ""): Actual text and expected text of test object 'Object Repository/Summary/1/android.view.View (1)' are matched.
+
+2022-12-21 12:15:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Summary/1/android.view.View (1)' are matched.
+
+2022-12-21 12:15:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-21 12:15:43 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/TC_Summary_03" time="45.17" classname="Test Cases/Summary/TC_Summary_03" status="PASSED">
+         <system-out><![CDATA[2022-12-21 12:15:44 - [TEST_CASE][PASSED] - Test Cases/Summary/TC_Summary_03: Test Cases/Summary/TC_Summary_03
+
+2022-12-21 12:15:44 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:15:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-21 12:15:46 - [MESSAGE][INFO] - Appium server started on port 55,534
+
+2022-12-21 12:16:09 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:16:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.view.View (2)"), 0): Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:16:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:16:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:16:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText"), "qe1@gmail.com", 0): Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:16:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:14 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:16:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - password"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:16:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText (1)"), "12344321", 0): Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:16:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:16 - [MESSAGE][PASSED] - Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:16:16 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-21 12:16:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-21 12:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:16:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:16:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Summary/1/android.widget.ImageView'
+
+2022-12-21 12:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.widget.ImageView'
+
+2022-12-21 12:16:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.widget.EditText - Search"), 0): Tapped on element 'Object Repository/Summary/1/android.widget.EditText - Search'
+
+2022-12-21 12:16:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.widget.EditText - Search'
+
+2022-12-21 12:16:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/1/android.widget.EditText"), "Zumba", 0): Text 'Zumba' has been set to element 'Object Repository/Summary/1/android.widget.EditText'
+
+2022-12-21 12:16:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:25 - [MESSAGE][PASSED] - Text 'Zumba' has been set to element 'Object Repository/Summary/1/android.widget.EditText'
+
+2022-12-21 12:16:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/1/android.view.View"), 0): Tapped on element 'Object Repository/Summary/1/android.view.View'
+
+2022-12-21 12:16:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/1/android.view.View'
+
+2022-12-21 12:16:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Summary/1/android.view.View (1)"), ""): Actual text and expected text of test object 'Object Repository/Summary/1/android.view.View (1)' are matched.
+
+2022-12-21 12:16:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Summary/1/android.view.View (1)' are matched.
+
+2022-12-21 12:16:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-21 12:16:29 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/TC_Summary_04" time="45.513" classname="Test Cases/Summary/TC_Summary_04" status="PASSED">
+         <system-out><![CDATA[2022-12-21 12:16:29 - [TEST_CASE][PASSED] - Test Cases/Summary/TC_Summary_04: Test Cases/Summary/TC_Summary_04
+
+2022-12-21 12:16:29 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:16:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-21 12:16:31 - [MESSAGE][INFO] - Appium server started on port 55,682
+
+2022-12-21 12:16:55 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:16:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.view.View (2)"), 0): Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:16:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:16:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:16:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:16:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText"), "qe1@gmail.com", 0): Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:16:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:00 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:17:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - password"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:17:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:17:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText (1)"), "12344321", 0): Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:17:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:02 - [MESSAGE][PASSED] - Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:17:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-21 12:17:06 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-21 12:17:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:17:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:17:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Summary/2/android.widget.ImageView'
+
+2022-12-21 12:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.widget.ImageView'
+
+2022-12-21 12:17:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.view.View"), 0): Tapped on element 'Object Repository/Summary/2/android.view.View'
+
+2022-12-21 12:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.view.View'
+
+2022-12-21 12:17:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.widget.EditText - Search"), 0): Tapped on element 'Object Repository/Summary/2/android.widget.EditText - Search'
+
+2022-12-21 12:17:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.widget.EditText - Search'
+
+2022-12-21 12:17:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Summary/2/android.view.View (1)"), ""): Actual text and expected text of test object 'Object Repository/Summary/2/android.view.View (1)' are matched.
+
+2022-12-21 12:17:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Summary/2/android.view.View (1)' are matched.
+
+2022-12-21 12:17:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-21 12:17:14 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Summary/TC_Summary_07" time="42.135" classname="Test Cases/Summary/TC_Summary_07" status="PASSED">
+         <system-out><![CDATA[2022-12-21 12:17:14 - [TEST_CASE][PASSED] - Test Cases/Summary/TC_Summary_07: Test Cases/Summary/TC_Summary_07
+
+2022-12-21 12:17:15 - [TEST_STEP][PASSED] - startApplication("E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk", true): Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:17:15 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-21 12:17:17 - [MESSAGE][INFO] - Appium server started on port 55,835
+
+2022-12-21 12:17:40 - [MESSAGE][PASSED] - Started app at: 'E:\SEMESTER 7\MBKM\Capstone Project\CICD\Aplikasi\Terbaru\app-release.apk'
+
+2022-12-21 12:17:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.view.View (2)"), 0): Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:17:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.view.View (2)'
+
+2022-12-21 12:17:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - email address"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - email address'
+
+2022-12-21 12:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText"), "qe1@gmail.com", 0): Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:44 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' has been set to element 'Object Repository/Summary/Online/android.widget.EditText'
+
+2022-12-21 12:17:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.EditText - password"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:17:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.EditText - password'
+
+2022-12-21 12:17:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Summary/Online/android.widget.EditText (1)"), "12344321", 0): Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:17:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:46 - [MESSAGE][PASSED] - Text '12344321' has been set to element 'Object Repository/Summary/Online/android.widget.EditText (1)'
+
+2022-12-21 12:17:46 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-21 12:17:49 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-21 12:17:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/Online/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:17:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/Online/android.widget.Button (1)'
+
+2022-12-21 12:17:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Summary/2/android.widget.ImageView'
+
+2022-12-21 12:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.widget.ImageView'
+
+2022-12-21 12:17:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.view.View"), 0): Tapped on element 'Object Repository/Summary/2/android.view.View'
+
+2022-12-21 12:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.view.View'
+
+2022-12-21 12:17:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Summary/2/android.widget.EditText - Search"), 0): Tapped on element 'Object Repository/Summary/2/android.widget.EditText - Search'
+
+2022-12-21 12:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 12:17:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Summary/2/android.widget.EditText - Search'
+
+2022-12-21 12:17:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Summary/2/android.view.View (1)"), ""): Actual text and expected text of test object 'Object Repository/Summary/2/android.view.View (1)' are matched.
+
+2022-12-21 12:17:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Summary/2/android.view.View (1)' are matched.
+
+2022-12-21 12:17:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-12-21 12:17:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 12:14:49 - [TEST_SUITE][PASSED] - Summary: Test Cases/Summary/TC_Summary_07]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
